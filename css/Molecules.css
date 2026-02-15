@@ -1,0 +1,52 @@
+.hero-article {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 58%;
+    left: 6%;
+    padding: 1em 9em 1em 3em;
+}
+
+.hero-button {
+    background-color: rgb(247, 128, 101);
+    border-color: transparent;
+}
+
+.servicse-figure {
+    margin: 0;
+}
+
+.facilitie-section {
+    display: grid;
+    grid-column: 4 span;
+}
+
+.sites-buttom {
+    background-color: rgb(247, 128, 101);
+    border-color: transparent;
+    display: flex;
+}
+
+.sites-article {}
+
+.sites-figure {
+    width: 230px;
+    height: 418px;
+    margin: 0;
+}
+
+.advantages-s-h {
+    display: grid;
+    grid-column: 3 span;
+}
+
+
+
+.footer-ul-es {
+    padding: 0;
+    width: 10em;
+}
+
+
+.footer-bottem-ul {
+    display: flex;
+}

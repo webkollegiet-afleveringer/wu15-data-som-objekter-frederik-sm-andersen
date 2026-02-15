@@ -3,7 +3,8 @@ let hero = {
     image: "https://dazzling-squirrel-77a63d.netlify.app/imgs/hero.png",
     headline: "Find out how we can save your time in Backpacking in Europe",
     copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac amet id eget scelerisque amet etiam in sit commodo. Pretium ut duis orci pulvinar pretium id consectetur.",
-    icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/Globe.png"
+    icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/Globe.png",
+    buttonText: "Explore",
 }
 
 
@@ -19,7 +20,7 @@ let services = [
         headline: "Additional services designed for the needs of campers",
         text: "Travelling often means that you dont have time to organise excursions along your route. EasyCamper takes care of that!",
         linktext: "Discover the Guided Tours and additional services that you can link to your structure"
-    }, 
+    },
     {
         illustration: "https://dazzling-squirrel-77a63d.netlify.app/imgs/illustrations/destination.png",
         headline: "Free online showcase with promotion in Italy and abroad",
@@ -30,26 +31,30 @@ let services = [
 
 let facilities = {
     headline: "Making your facility known is our priority",
-    options : [
+    options: [
         {
             icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/list-check.png",
             headline: "Choose the type of stop",
-            text: "Select the type of stopover you are ordering from Equipped Area, Camping and Agricamping"
+            text: "Select the type of stopover you are ordering from Equipped Area, Camping and Agricamping",
+            linktext: "show me more"
         },
         {
             icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/spellcheck.png",
             headline: "Describe your structure",
-            text: "Describe thee property, location and nearby attractions"
+            text: "Describe thee property, location and nearby attractions",
+            linktext: "show me more"
         },
         {
             icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/Text-Frame-Add.png",
             headline: "Build your showcase",
-            text: "Add photos, videos and descriptions Define the price of each type of that make your propety truly"
+            text: "Add photos, videos and descriptions Define the price of each type of that make your propety truly",
+            linktext: "show me more"
         },
         {
             icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/Calendar-Today.png",
             headline: "Prices and Availability",
-            text: "pitch and configure the availablity calendar."
+            text: "pitch and configure the availablity calendar.",
+            linktext: "show me more"
         },
     ]
 }
@@ -58,6 +63,7 @@ let sites = {
     headline: "Join the community campervan sites managers.",
     text: "Discover all the equibbed areas in Italy. Find the shop with all the services for you and your camper.",
     btnicon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/arrow-icon.png",
+    buttomText: "Start",
     places: [
         {
             img: "https://dazzling-squirrel-77a63d.netlify.app/imgs/lucciano.png",
@@ -77,22 +83,75 @@ let sites = {
     ]
 }
 
-let advantages = [
-    {
-        icon:"https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/compare.png",
-        headline: "Convenience and Transparency",
-        text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
-    },
-    {
-        icon:"https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/library_books.png",
-        headline: "Digital marketing and editorial support",
-        text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
-    },
-    {
-        icon:"https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/Compare-HSV.png",
-        headline: "Community of services dedicated to campers",
-        text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
-    },
-]
+let advantages = {
+
+    headline: "Our Advantages",
+
+    ourAdvantages: [
+        {
+            icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/compare.png",
+            headline: "Convenience and Transparency",
+            text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
+        },
+        {
+            icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/library_books.png",
+            headline: "Digital marketing and editorial support",
+            text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
+        },
+        {
+            icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/Compare-HSV.png",
+            headline: "Community of services dedicated to campers",
+            text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
+        },
+    ]
+}
 
 // Opret dit dataobjekt til footerens indhold herunder
+
+
+let footer = {
+    text: "Easy Camper",
+    headline: "When Passion Meets Comfort.",
+
+    allUl: [
+        {
+            header: "Discover the Network",
+            headerList: [
+                { link: "#", text: "Where to shop" },
+                { link: "#", text: "Tour Guided" },
+                { link: "#", text: "Our Tours" },
+                { link: "#", text: "About Us" }
+            ]
+        },
+        {
+            header: "Become a Manager",
+            headerList: [
+                { link: "#", text: "Join your Pairing" },
+                { link: "#", text: "Offer your Service" },
+                { link: "#", text: "Are you a guide?" },
+            ]
+        },
+        {
+            header: "Assistance",
+            headerList: [
+                { link: "#", text: "Support Center" },
+                { link: "#", text: "Faqs" },
+                { link: "#", text: "Cancallation Options" },
+                { link: "#", text: "Reliablity and Sequrity" },
+            ]
+        }
+    ],
+
+    eazyCamper: "EazyCamper. All rights reserved.",
+    bottemUls: [
+        { link: "#", text: "aboute" },
+        { link: "#", text: "Site Map" },
+        { link: "#", text: "Terms" },
+        { link: "#", text: "Privacy Policy" },
+        { link: "#", text: "Teams" },
+
+    ],
+}
+
+
+
