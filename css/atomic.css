@@ -1,37 +1,54 @@
+.header-cube {
+    margin-left: 8em;
+}
+
+.header-arrow {
+    margin-top: 1em;
+}
+
 .hero-img {
     width: 100%;
 }
 
 .hero-h1 {
-    width: 12em;
+    width: 13em;
     font-size: var(--fs-xl);
 }
 
+.hero-span {
+    color: rgb(247, 128, 101);
+}
+
 .hero-text {
-    width: 20em;
+    width: 24em;
     font-size: var(--fs-base);
 }
 
 .hero-text {
     font-size: var(--fs-base);
     color: rgb(102, 102, 102);
+}
+
+.hero-icon {
+    width: 2em;
+    height: 2em;
+    margin-top: 1.3em;
 }
 
 .hero-btext {
     font-size: var(--fs-base);
     font-weight: bold;
     color: rgb(255, 255, 255);
-    padding: 0.2em 3em;
 }
 
 .service-h2 {
-    width: 14em;
+    width: 17em;
 }
 
 .services-text {
     font-size: var(--fs-base);
     color: rgb(102, 102, 102);
-    width: 20em;
+    width: 22em;
 }
 
 .sevice-link-text {
@@ -52,6 +69,7 @@
 .facilities-text {
     font-size: var(--fs-base);
     color: rgb(102, 102, 102);
+    width: 18em;
 }
 
 .facilities-linktext {
@@ -63,10 +81,12 @@
 .sites-text {
     color: rgb(102, 102, 102);
     font-size: var(--fs-base);
+    width: 17em;
 }
 
 .sites-h2 {
     font-size: var(--fs-xl);
+    width: 8em;
 }
 
 .sites-img {
@@ -74,11 +94,36 @@
     height: 100%;
 }
 
-.sites-buttomtext {
+.sites-h3 {
     font-size: var(--fs-md);
+}
+
+.sites-city {
+    color: rgb(102, 102, 102);
+    font-size: var(--fs-base);
+}
+
+.sites-view {
+    color: rgb(247, 128, 101);
+    font-size: var(--fs-md);
+
+}
+
+.sites-starts {
+    width: 2em;
+    height: 2em;
+    margin-top: 1.4em;
+}
+
+.sites-buttomtext {
+    font-size: var(--fs-base);
     font-weight: bold;
     color: rgb(255, 255, 255);
-    padding: 0.2em 3em;
+
+}
+
+.advantages-headline {
+    font-size: var(--fs-xl);
 }
 
 .advantages-h3 {
@@ -88,6 +133,7 @@
 .advantages-text {
     color: rgb(102, 102, 102);
     font-size: var(--fs-base);
+    width: 26em;
 }
 
 footer li a {
@@ -95,12 +141,12 @@ footer li a {
 }
 
 footer h3 {
-    width: 10em;
+
     font-size: var(--fs-md);
 }
 
 .footer-li-es {
-    width: 10em;
+    width: 12em;
 }
 
 .footer-h2 {
@@ -112,4 +158,9 @@ footer h3 {
     font-weight: bold;
     width: 1em;
     margin-top: 0;
+}
+
+.footer-reserved-h3 {
+    width: 18em;
+    font-size: var(--fs-base);
 }

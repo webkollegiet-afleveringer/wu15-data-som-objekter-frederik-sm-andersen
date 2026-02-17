@@ -1,3 +1,18 @@
+.header-s {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-ap-div {
+    margin-right: 10em;
+    background-color: white;
+    border-radius: 2em;
+    display: flex;
+    gap: 0.5em;
+    padding: 0.5em 1em;
+}
+
 .hero-article {
     background-color: rgb(255, 255, 255);
     position: absolute;
@@ -9,6 +24,9 @@
 .hero-button {
     background-color: rgb(247, 128, 101);
     border-color: transparent;
+    display: flex;
+    padding: 0 4em;
+    gap: 1em;
 }
 
 .servicse-figure {
@@ -20,13 +38,22 @@
     grid-column: 4 span;
 }
 
+
+.facilities-article {
+    display: grid;
+    grid-template-rows: 4em 6em 1fr;
+}
+
+
 .sites-buttom {
     background-color: rgb(247, 128, 101);
     border-color: transparent;
     display: flex;
+    padding: 0.1em 6em;
+    gap: 1em;
 }
 
-.sites-article {}
+
 
 .sites-figure {
     width: 230px;
@@ -39,14 +66,31 @@
     grid-column: 3 span;
 }
 
+.advantages-article {
+    display: grid;
+    grid-template-rows: 4em 6em 1fr;
 
+}
+
+.footer-ec-section {}
 
 .footer-ul-es {
     padding: 0;
-    width: 10em;
+    display: grid;
+    gap: 2em;
 }
 
 
+
+.footer-reserved-s {
+    border-top: 2px rgb(198, 198, 198) solid;
+    width: 100%;
+    display: flex;
+    grid-column: 4 span;
+    justify-content: space-between;
+}
+
 .footer-bottem-ul {
     display: flex;
+    gap: 2em;
 }

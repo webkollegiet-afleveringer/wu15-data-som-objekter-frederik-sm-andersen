@@ -10,12 +10,23 @@ body {
     margin: 0;
 }
 
+* {
+    font-family: merriweather;
+    box-sizing: border-box;
+}
+
 :root {
-    --fs-sm: clamp(0.8rem, 0.17vi + 0.76rem, 0.89rem);
-    --fs-base: clamp(1rem, 0.34vi + 0.91rem, 1.19rem);
-    --fs-md: clamp(1.25rem, 0.61vi + 1.1rem, 1.58rem);
-    --fs-lg: clamp(1.56rem, 1vi + 1.31rem, 2.11rem);
-    --fs-xl: clamp(1.95rem, 1.56vi + 1.56rem, 2.81rem);
-    --fs-xxl: clamp(2.44rem, 2.38vi + 1.85rem, 3.75rem);
-    --fs-xxxl: clamp(3.05rem, 3.54vi + 2.17rem, 5rem);
+    --fs-sm: clamp(0.75rem, 0.09vi + 0.73rem, 0.8rem);
+    --fs-base: clamp(0.94rem, 0.23vi + 0.88rem, 1.06rem);
+    --fs-md: clamp(1.17rem, 0.44vi + 1.06rem, 1.42rem);
+    --fs-lg: clamp(1.46rem, 0.77vi + 1.27rem, 1.89rem);
+    --fs-xl: clamp(1.83rem, 1.25vi + 1.52rem, 2.52rem);
+    --fs-xxl: clamp(2.29rem, 1.94vi + 1.8rem, 3.35rem);
+    --fs-xxxl: clamp(2.86rem, 2.93vi + 2.13rem, 4.47rem);
+}
+
+@font-face {
+    font-family: "merriweather";
+    src: url(/font/Merriweather/Merriweather-VariableFont_opsz\,wdth\,wght.ttf);
+    font-style: normal;
 }

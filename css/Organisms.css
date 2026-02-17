@@ -1,3 +1,14 @@
+.wrapper {
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 1%;
+}
+
 .hero {
     position: relative;
     margin-bottom: 14em;
@@ -7,7 +18,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 10em;
-    margin-inline: max((100% - 85%) / 2, 1.5rem);
+    margin-inline: max((100% - 90%) / 2, 1.5rem);
     gap: 4em;
 }
 
@@ -16,7 +27,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1em;
     margin-bottom: 13em;
-    margin-inline: max((100% - 85%) / 2, 1.5rem);
+    margin-inline: max((100% - 90%) / 2, 1.5rem);
 }
 
 .sites {
@@ -24,22 +35,23 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 4em;
     margin-bottom: 10em;
-    margin-inline: max((100% - 85%) / 2, 1.5rem);
+    margin-inline: max((100% - 90%) / 2, 1.5rem);
 }
 
 .advantages {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2em;
+    gap: 1em;
     margin-bottom: 10em;
-    margin-inline: max((100% - 85%) / 2, 1.5rem);
+    margin-inline: max((100% - 90%) / 2, 1.5rem);
 }
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     background-color: rgb(247, 247, 247);
     width: 100%;
     padding: 5em 7em;
+    gap: 2em;
 }
